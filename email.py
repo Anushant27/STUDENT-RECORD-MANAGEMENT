@@ -15,7 +15,7 @@ toaddr = "EMAIL address of the receiver"
 msg = MIMEMultipart() 
 
 # storing the senders email address 
-msg['From'] = fromaddr 
+msg['student'] = fromaddr 
 
 # storing the receivers email address 
 msg['To'] = toaddr 
